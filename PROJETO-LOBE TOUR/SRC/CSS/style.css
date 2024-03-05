@@ -4,6 +4,7 @@
 /* Styles */
 @import url("./header.css");
 @import url("./section.css");
+@import url("./footer.css");
 
 :root {
     --cor-primaria: #04ddb2;
@@ -11,4 +12,5 @@
     --cor-terciaria: #fff;
     --cor-quartenaria: #767676;
     --font-primaria: "Roboto", sans-serif;
+    --font-secundaria: LabGrotesque, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
