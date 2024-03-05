@@ -1,0 +1,28 @@
+/* Section main */
+
+.section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 64px;
+    font-family: var(--font-primaria);
+    font-weight: 900;
+    color: var(--cor-secundaria);
+    margin-bottom: 12px;
+}
+
+.section-heading-green {
+    padding-left: 0.25em;
+    color: var(--cor-primaria);
+}
+
+.section-text { 
+    font-size: 26px;
+    font-family: var(--font-primaria);
+    font-weight: 300;
+    max-width: 60%;
+}

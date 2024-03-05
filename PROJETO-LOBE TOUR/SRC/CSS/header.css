@@ -1,0 +1,42 @@
+.Navbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5em 0;
+}
+
+.imagem-logo {
+    width: auto;
+    display: block;
+}
+
+.Navbar-itens {
+    display: flex;
+    gap: 35px;
+}
+
+.Navbar-item {
+    font-size: 18px;
+    font-family: var(--font-primaria);
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.button {
+    margin-right: 2.5em;
+    
+}
+
+.Navbar-button {
+    border: none;
+    padding: 0;
+    width: 129px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+    font-size: 18px;
+    font-family: var(--font-primaria);
+    font-weight: 700;
+}
