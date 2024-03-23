@@ -1,12 +1,11 @@
 '''
-Em Python, variáveis são utilizadas para armazenar valores na memória do
-computador. Para criar uma variável, você precisa usar um nome e um valor.
-O nome da variável deve seguir as regras de nomenclatura do Python:
+Em Python, variáveis são utilizadas para armazenar valores na memória do computador. Para criar uma variável, você precisa usar um nome e um valor. O nome da variável deve seguir as regras de nomenclatura do Python:
 
 Deve começar com uma letra ou sublinhado (_).
 Pode conter letras, números e sublinhados.
 Não pode ser uma palavra-chave reservada do Python.
 Para atribuir um valor a uma variável, utilize o operador de atribuição (=).
+
 Exemplo:
 '''
 nome = 'Douglas'
@@ -22,16 +21,17 @@ print(type(altura))
 '''
 Tipos de Dados:
 
-Cada variável em Python possui um tipo de dado, que define o tipo de valor que
-ela pode armazenar. Os tipos de dados mais comuns em Python são:
+Cada variável em Python possui um tipo de dado, que define o tipo de valor que ela pode armazenar. Os tipos de dados mais comuns em Python são:
 
 Inteiro (int): Números inteiros, como 1, 2, 3, etc.
 Ponto flutuante (float): Números com casas decimais, como 1.5, 2.75, 3.14, etc.
 String (str): Textos, como "Olá, mundo!", "Python é legal", etc.
 Booleano (bool): Valores True ou False.
+
 Conversão de Tipos:
 
 É possível converter um tipo de dado para outro usando funções específicas.
+
 Exemplo:
 '''
 nome = 'Douglas'
@@ -42,10 +42,7 @@ numero_float = float(numero_inteiro)  # Converte um inteiro para um float
 print(type(numero_float))
 
 '''
-Os operadores aritméticos em Python permitem realizar operações matemáticas
-básicas, como adição, subtração, multiplicação, divisão e exponenciação. São
-ferramentas essenciais para qualquer programador Python, desde iniciantes até
-experientes.
+Os operadores aritméticos em Python permitem realizar operações matemáticas básicas, como adição, subtração, multiplicação, divisão e exponenciação. São ferramentas essenciais para qualquer programador Python, desde iniciantes até experientes.
 '''
 # Soma (+)
 soma = 5 + 2
@@ -76,10 +73,7 @@ elevado = 5 ** 2
 print(elevado)
 
 '''
-Os operadores de comparação em Python permitem verificar se duas expressões são
-iguais, diferentes, maiores, menores, etc. São ferramentas essenciais para tomar
-decisões e realizar comparações em seus programas. Retornam com resultado
-verdadeiro (True) ou Falso (False) (tipo bool)
+Os operadores de comparação em Python permitem verificar se duas expressões são iguais, diferentes, maiores, menores, etc. São ferramentas essenciais para tomar decisões e realizar comparações em seus programas. Retornam com resultado verdadeiro (True) ou Falso (False) (tipo bool)
 '''
 # Operador de Igualdade (==)
 igualdade = 3 == 4
@@ -118,11 +112,7 @@ print(a is not b)
 print(a != b)
 
 '''
-Os operadores de associação in e not in em Python permitem verificar se um
-elemento está presente ou não em uma coleção, como listas, tuplas, dicionários e
-strings. São ferramentas úteis para filtrar dados e realizar comparações em seus
-programas. Assim como os aoperadores de comparação eles retornam
-Verdadeiro (True) ou Falso (False)
+Os operadores de associação in e not in em Python permitem verificar se um elemento está presente ou não em uma coleção, como listas, tuplas, dicionários e strings. São ferramentas úteis para filtrar dados e realizar comparações em seus programas. Assim como os aoperadores de comparação eles retornam Verdadeiro (True) ou Falso (False)
 '''
 # Operador in
 nome = 'Douglas'
@@ -133,10 +123,7 @@ nome = 'Douglas'
 print('D' not in nome)
 
 '''
-Os operadores lógicos em Python permitem combinar expressões booleanas
-(True ou False) para formar novas expressões booleanas. São ferramentas
-essenciais para tomar decisões e realizar comparações complexas em seus
-programas. São eles:
+Os operadores lógicos em Python permitem combinar expressões booleanas (True ou False) para formar novas expressões booleanas. São ferramentas essenciais para tomar decisões e realizar comparações complexas em seus programas. São eles:
 
 E (and): Retorna True se ambas as expressões forem True.
 Exemplo: x > 0 and y < 10.
@@ -171,14 +158,11 @@ print(not(a > b))
 print(not(a < b))
 
 '''
-As f-strings em Python são uma maneira concisa e elegante de formatar strings.
-Elas permitem incorporar expressões Python diretamente dentro de strings,
-tornando o código mais legível e fácil de manter.
+As f-strings em Python são uma maneira concisa e elegante de formatar strings. Elas permitem incorporar expressões Python diretamente dentro de strings, tornando o código mais legível e fácil de manter.
 
 Como usar f-strings:
 
-Para usar f-strings, basta prefixar uma string literal com a letra "f".
-Dentro da string, você pode usar expressões Python entre chaves "{}":
+Para usar f-strings, basta prefixar uma string literal com a letra "f". Dentro da string, você pode usar expressões Python entre chaves "{}":
 '''
 cliente = 'Douglas'
 idade = 48
@@ -189,14 +173,11 @@ print(taxa)
 print(f'O resultado da taxa é aproximadamente {taxa:.2f}')
 
 '''
-A função input() em Python permite que você obtenha entrada do usuário durante a
-execução do programa. É uma ferramenta essencial para interagir com o usuário e
-coletar dados para processamento.
+A função input() em Python permite que você obtenha entrada do usuário durante a execução do programa. É uma ferramenta essencial para interagir com o usuário e coletar dados para processamento.
 
 Como usar a função input():
 
-A função input() é simples de usar. Basta fornecer uma mensagem entre parênteses
-para instruir o usuário sobre o que digitar:
+A função input() é simples de usar. Basta fornecer uma mensagem entre parênteses para instruir o usuário sobre o que digitar:
 '''
 nome = input('Informe seu primeiro nome: ')
 print(f'Olá, {nome}!')
@@ -208,13 +189,14 @@ imc = massa / (altura ** 2)
 print(f'Olá {nome}! Seu IMC é {imc:.2f}')
 
 '''
-Este bloco traz possível soluções para quando queremos saber qual caracter temos
-em uma posição (índice) ou sequência de caracteres em um intervalo
+Este bloco traz possível soluções para quando queremos saber qual caracter temos em uma posição (índice) ou sequência de caracteres em um intervalo
 '''
 # 0    1   2   3   4   5  6  7  8  9 10 11 12 13 (índice)
 # -14 -13 -12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 (índice reverso)
 # 1º 2º 3º 4º 5º 6º 7º 8º 9º 10º 11º 12º 13º 14º (ordinal)
 # d  o  u  g  @  g  m  a  i   l   .   c   o   m
+
+
 email = 'doug@gmail.com'
 print(email[4])
 print(email[:]) # imprimir um intervalo de todos os caracteres da string email
@@ -222,11 +204,11 @@ print(email[0:4]) # selecionando o intervalo a partir do índice 0 até o índic
 print(email[2:]) # seleciona o intervalo a partir do índice 2 até o final
 print(email[:5]) # seleciona o intervalo de todos os caracteres até o de índice 4
 print(email[0:5:2]) # seleciona último caracter de uma sequência
+
 '''
-resumo do fatiamento de strings
-nome_variavel[indice de começo : índice de parada : de quanto em quanto]
-nome_variavel[início : fim : passo]
+resumo do fatiamento de strings nome_variavel[indice de começo : índice de parada : de quanto em quanto] nome_variavel[início : fim : passo]
 '''
+
 # Contar a quantidade de carcteres em uma sequência
 email = 'doug@gmail.com'
 print(len(email))
@@ -343,11 +325,9 @@ print(f'a lista vendas tem {len(vendas)} elementos')
 print(f'a lista estoques tem {len(estoques)} elementos')
 
 '''
-Elabore um programa que receba do usuário um número inteiro e positivo
-de no máximo 5, e automaticamente, exiba o nome do produto correspondente,
-seu preço, sua quantidade vendida, o valor faturado em R$, e quantas unidades
-ainda restam em estoque desse produto.
+Elabore um programa que receba do usuário um número inteiro e positivo de no máximo 5, e automaticamente, exiba o nome do produto correspondente, seu preço, sua quantidade vendida, o valor faturado em R$, e quantas unidades ainda restam em estoque desse produto.
 '''
+
 produtos = ['monitor', 'celular', 'notebook', 'desktop', 'impressora', 'teclado']
 precos = [600, 2000, 5000, 3000, 1500, 200]
 vendas = [300, 500, 100, 700, 500, 1000]
